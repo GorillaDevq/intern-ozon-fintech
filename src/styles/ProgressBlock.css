@@ -123,8 +123,8 @@
     -webkit-appearance: none;
 }
 
-@media screen and (orientation: portrait) {
-    .progress-wrapper {
+@media screen and (max-width: 568px) {
+    .progress {
         flex-direction: column;
         max-width: 320px;
         height: 568px;
